@@ -23,7 +23,7 @@ KiCad, Schematics and Gerbers are provided. Renders of the boards are shown in t
 
 ## The Code
 
-The EPROM code containing the program for usage is avaiable on the associated 64'er disc. This is currently available from []
+The EPROM code containing the program for usage is avaiable on the associated 64'er disc. This is currently available from [archive.org](https://archive.org/download/64er_Magazin_89-03_1989_Markt_Technik_de_Side_A)
 
 
 
