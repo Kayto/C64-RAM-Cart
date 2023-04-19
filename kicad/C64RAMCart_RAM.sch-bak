@@ -4,14 +4,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 2
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Title "Super Luxus CMOS RAM Platine"
+Date "2023-04-19"
+Rev "Rev001"
+Comp "Redrawn by AdamT117 (kayto@github.com)"
+Comment1 "designed and created by J Schucht."
+Comment2 "The design files are offered for educational purposes only."
+Comment3 "from the 64'er magazine dated March 1989"
+Comment4 "This C64 RAM cartridge is a recreation of the Super Luxus CMOS RAM Platine"
 $EndDescr
 Wire Bus Line
 	4650 2800 4725 2800
@@ -1428,6 +1428,8 @@ Wire Wire Line
 Connection ~ 8925 1875
 Wire Wire Line
 	8925 1600 8925 1875
+Text Notes 3725 825  0    50   ~ 0
+RAM Battery Switch
 Wire Bus Line
 	6825 2825 6825 3700
 Wire Bus Line
@@ -1452,6 +1454,4 @@ Wire Bus Line
 	650  5350 650  7025
 Wire Bus Line
 	650  2825 650  4500
-Text Notes 3725 825  0    50   ~ 0
-RAM Battery Switch
 $EndSCHEMATC

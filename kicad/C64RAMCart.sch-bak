@@ -4,14 +4,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Title "Super Luxus CMOS RAM Platine"
+Date "2023-04-19"
+Rev "Rev001"
+Comp "Redrawn by AdamT117 (kayto@github.com)"
+Comment1 "designed and created by J Schucht."
+Comment2 "The design files are offered for educational purposes only."
+Comment3 "from the 64'er magazine dated March 1989"
+Comment4 "This C64 RAM cartridge is a recreation of the Super Luxus CMOS RAM Platine"
 $EndDescr
 $Comp
 L C64RAMCart-rescue:C64-Exp-Port_C64-Exp-Port-C64RAMCart J1
@@ -1241,66 +1241,8 @@ Wire Wire Line
 	9575 4425 9375 4425
 Text GLabel 9375 4425 0    50   Input ~ 0
 RES
-$Comp
-L Device:LED_Small D4
-U 1 1 63FD3B5C
-P 10575 4875
-F 0 "D4" V 10621 4805 50  0000 R CNN
-F 1 "LED_Small" V 10530 4805 50  0000 R CNN
-F 2 "LED_THT:LED_D5.0mm" V 10575 4875 50  0001 C CNN
-F 3 "~" V 10575 4875 50  0001 C CNN
-	1    10575 4875
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0112
-U 1 1 63FD464B
-P 10575 5475
-F 0 "#PWR0112" H 10575 5225 50  0001 C CNN
-F 1 "GND" H 10580 5302 50  0000 C CNN
-F 2 "" H 10575 5475 50  0001 C CNN
-F 3 "" H 10575 5475 50  0001 C CNN
-	1    10575 5475
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10575 5050 10575 4975
-Wire Wire Line
-	10575 4775 10575 4700
-Wire Wire Line
-	10575 4175 10425 4175
-Text GLabel 10425 4175 0    50   Input ~ 0
-+5V
-$Comp
-L Device:R_Small R4
-U 1 1 640022A7
-P 10575 5150
-F 0 "R4" V 10771 5150 50  0000 C CNN
-F 1 "R_Small" V 10680 5150 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 10575 5150 50  0001 C CNN
-F 3 "~" H 10575 5150 50  0001 C CNN
-	1    10575 5150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10575 5250 10575 5475
 Text Notes 9475 5850 0    50   ~ 0
 Reset
-Text Notes 10250 5850 0    50   ~ 0
-RAM Battery Check
-$Comp
-L Switch:SW_Push SW4
-U 1 1 63E472D1
-P 10575 4500
-F 0 "SW4" V 10529 4648 50  0000 L CNN
-F 1 "SW_Push" V 10620 4648 50  0000 L CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 10575 4700 50  0001 C CNN
-F 3 "~" H 10575 4700 50  0001 C CNN
-	1    10575 4500
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	10575 4300 10575 4175
 Wire Bus Line
 	6250 4525 6250 5525
 Wire Bus Line

@@ -4,14 +4,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 2
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Title "Super Luxus CMOS RAM Platine"
+Date "2023-04-19"
+Rev "Rev001"
+Comp "Redrawn by AdamT117 (kayto@github.com)"
+Comment1 "designed and created by J Schucht."
+Comment2 "The design files are offered for educational purposes only."
+Comment3 "from the 64'er magazine dated March 1989"
+Comment4 "This C64 RAM cartridge is a recreation of the Super Luxus CMOS RAM Platine"
 $EndDescr
 Wire Bus Line
 	4650 2800 4725 2800
@@ -1428,6 +1428,52 @@ Wire Wire Line
 Connection ~ 8925 1875
 Wire Wire Line
 	8925 1600 8925 1875
+Text Notes 3725 825  0    50   ~ 0
+RAM Battery Switch
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 64464D83
+P 9375 2825
+F 0 "H1" H 9475 2871 50  0000 L CNN
+F 1 "MountingHole" H 9475 2780 50  0000 L CNN
+F 2 "C64:M3_pin" H 9375 2825 50  0001 C CNN
+F 3 "~" H 9375 2825 50  0001 C CNN
+	1    9375 2825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 644651A4
+P 9375 3225
+F 0 "H2" H 9475 3271 50  0000 L CNN
+F 1 "MountingHole" H 9475 3180 50  0000 L CNN
+F 2 "C64:M3_pin" H 9375 3225 50  0001 C CNN
+F 3 "~" H 9375 3225 50  0001 C CNN
+	1    9375 3225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 6447DA20
+P 9375 3625
+F 0 "H3" H 9475 3671 50  0000 L CNN
+F 1 "MountingHole" H 9475 3580 50  0000 L CNN
+F 2 "C64:M3_pin" H 9375 3625 50  0001 C CNN
+F 3 "~" H 9375 3625 50  0001 C CNN
+	1    9375 3625
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 6447DD66
+P 9375 4025
+F 0 "H4" H 9475 4071 50  0000 L CNN
+F 1 "MountingHole" H 9475 3980 50  0000 L CNN
+F 2 "C64:M3_pin" H 9375 4025 50  0001 C CNN
+F 3 "~" H 9375 4025 50  0001 C CNN
+	1    9375 4025
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	6825 2825 6825 3700
 Wire Bus Line
@@ -1452,6 +1498,4 @@ Wire Bus Line
 	650  5350 650  7025
 Wire Bus Line
 	650  2825 650  4500
-Text Notes 3725 825  0    50   ~ 0
-RAM Battery Switch
 $EndSCHEMATC

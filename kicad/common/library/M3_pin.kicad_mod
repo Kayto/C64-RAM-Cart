@@ -1,4 +1,4 @@
-(module M3_pin (layer F.Cu) (tedit 5F76331A)
+(module M3_pin (layer F.Cu) (tedit 643FDDD0)
   (descr "module 1 pin (ou trou mecanique de percage)")
   (tags DEV)
   (fp_text reference REF** (at 0 -3.048) (layer F.Fab) hide
