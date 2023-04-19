@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name C64RAMCart)(type Legacy)(uri "C:/Users/Adam/Documents/GitHub/C64 RAM Cart/kicad/C64RAMCart-cache.lib")(options "")(descr ""))
+  (lib (name C64RAMCart-rescue)(type Legacy)(uri ${KIPRJMOD}/C64RAMCart-rescue.lib)(options "")(descr ""))
+)

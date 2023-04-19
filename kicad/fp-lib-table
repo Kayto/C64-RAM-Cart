@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name C64)(type KiCad)(uri ${KIPRJMOD}/common/library)(options "")(descr ""))
+  (lib (name library)(type KiCad)(uri ${KIPRJMOD}/common/library.pretty)(options "")(descr ""))
+  (lib (name modules)(type KiCad)(uri ${KIPRJMOD}/common/modules.pretty)(options "")(descr ""))
+)
