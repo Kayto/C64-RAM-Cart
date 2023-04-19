@@ -7,7 +7,7 @@ As RAM became cheaper (at nearer $15 each) at the end of the 1980s, RAM based st
 
 
 ## Introduction
-This C64 RAM cartridge is a recreation of the Super Luxus CMOS RAM Platine from the 64'er magazine dated March 1989. It provides 256Kb of battery backed RAM instead of the usual memory expansion provided by EPROMS. Put simply it acts as a RAM disc for the storage of data in conusction with the program provided on an onboard EPROM. 
+This C64 RAM cartridge is a recreation of the Super Luxus CMOS RAM Platine from the 64'er magazine dated March 1989. It provides 256Kb of battery backed RAM instead of the usual memory expansion provided by EPROMS. Put simply it acts as a RAM disc for the storage of data in conjunction with the program provided on an onboard EPROM. 
 
 ## Credit 
 
