@@ -20,11 +20,9 @@ My motivation for this recreation is as an electronics hobbyist and C64 fan - to
 
 KiCad, Schematics and Gerbers are provided. Renders of the boards are shown in the KiCad directory. Please review before making a commitment. No warranties or support are provided. As of this date the designs remain untested.
 
-
 ## The Code
 
 The EPROM code containing the program for usage is avaiable on the associated 64'er disc. This is currently available from [archive.org](https://archive.org/download/64er_Magazin_89-03_1989_Markt_Technik_de_Side_A)
-
 
 
 
