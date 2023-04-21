@@ -14,6 +14,7 @@ This C64 RAM cartridge is a recreation of the Super Luxus CMOS RAM Platine from 
 ## Credit 
 
 We should start with the credit, as this board was designed and created by J Schucht. The design files are offered for educational purposes only.
+Thanks also due for [TEBL](https://github.com/tebl/C64-BlinkenDiag) and any associated credits for some of the KiCad items.
 
 ## Aims
 My motivation for this recreation is as an electronics hobbyist and C64 fan - to improve KiCad, hardware workings and generally coding.
