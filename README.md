@@ -27,5 +27,6 @@ KiCad, Schematics and Gerbers are provided. Renders of the boards are shown in t
 
 The EPROM code containing the program for usage is avaiable on the associated 64'er disc. This is currently available from [archive.org](https://archive.org/download/64er_Magazin_89-03_1989_Markt_Technik_de_Side_A)
 
-
+The control software (listing) is published in packed form, once the listing with the MSE has been entered and saved, the program "RAM-Platine.pac" must be loaded with "'8" and started with RUN. Two files are now created on the previously inserted floppy disk: "RAM PLATlNE 4.2" and "RAM RW $c 0000 4.2". 
+The program "RAMPLATlNE4.2" is the control software to be burned into a 2764 EPROM. The second program allows you to read and write to the CMOS RAM without activating the control EPROM.
 
