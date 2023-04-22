@@ -638,7 +638,7 @@ Text GLabel 6125 2575 0    50   Input ~ 0
 Wire Wire Line
 	6375 3375 6125 3375
 Text GLabel 6125 3375 0    50   Input ~ 0
-RES
+~RES
 Wire Wire Line
 	6375 2775 6125 2775
 Text GLabel 6125 2775 0    50   Input ~ 0
@@ -811,7 +811,7 @@ Text GLabel 9100 2525 0    50   Input ~ 0
 Wire Wire Line
 	9350 3325 9100 3325
 Text GLabel 9100 3325 0    50   Input ~ 0
-RES
+~RES
 Wire Wire Line
 	9350 2725 9100 2725
 Text GLabel 9100 2725 0    50   Input ~ 0
@@ -1240,7 +1240,7 @@ Wire Wire Line
 Wire Wire Line
 	9575 4425 9375 4425
 Text GLabel 9375 4425 0    50   Input ~ 0
-RES
+~RES
 Text Notes 9475 5850 0    50   ~ 0
 Reset
 Wire Bus Line

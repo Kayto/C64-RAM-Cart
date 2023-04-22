@@ -1430,6 +1430,50 @@ Wire Wire Line
 	8925 1600 8925 1875
 Text Notes 3725 825  0    50   ~ 0
 RAM Battery Switch
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 64464D83
+P 9375 2825
+F 0 "H1" H 9475 2871 50  0000 L CNN
+F 1 "MountingHole" H 9475 2780 50  0000 L CNN
+F 2 "C64:M3_pin" H 9375 2825 50  0001 C CNN
+F 3 "~" H 9375 2825 50  0001 C CNN
+	1    9375 2825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 644651A4
+P 9375 3225
+F 0 "H2" H 9475 3271 50  0000 L CNN
+F 1 "MountingHole" H 9475 3180 50  0000 L CNN
+F 2 "C64:M3_pin" H 9375 3225 50  0001 C CNN
+F 3 "~" H 9375 3225 50  0001 C CNN
+	1    9375 3225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 6447DA20
+P 9375 3625
+F 0 "H3" H 9475 3671 50  0000 L CNN
+F 1 "MountingHole" H 9475 3580 50  0000 L CNN
+F 2 "C64:M3_pin" H 9375 3625 50  0001 C CNN
+F 3 "~" H 9375 3625 50  0001 C CNN
+	1    9375 3625
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 6447DD66
+P 9375 4025
+F 0 "H4" H 9475 4071 50  0000 L CNN
+F 1 "MountingHole" H 9475 3980 50  0000 L CNN
+F 2 "C64:M3_pin" H 9375 4025 50  0001 C CNN
+F 3 "~" H 9375 4025 50  0001 C CNN
+	1    9375 4025
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	6825 2825 6825 3700
 Wire Bus Line

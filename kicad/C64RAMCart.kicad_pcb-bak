@@ -10,6 +10,17 @@
   )
 
   (page A4)
+  (title_block
+    (title "Super Luxus CMOS RAM Platine")
+    (date 2023-04-19)
+    (rev rev001)
+    (company "Redrawn by AdamT117 (kayto@github.com)")
+    (comment 1 "designed and created by J Schucht.")
+    (comment 2 "The design files are offered for educational purposes only")
+    (comment 3 "from the 64'er magazine dated March 1989")
+    (comment 4 "his C64 RAM cartridge is a recreation of the Super Luxus CMOS RAM Platine")
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
