@@ -543,17 +543,6 @@ U 63E55187
 F0 "C64RAMCart_RAM" 50
 F1 "C64RAMCart_RAM.sch" 50
 $EndSheet
-$Comp
-L Device:R_Network07 RN2
-U 1 1 63EAEC02
-P 7625 3850
-F 0 "RN2" H 8025 3850 50  0000 L CNN
-F 1 "R_6k8_Network07" H 7475 4025 50  0000 L CNN
-F 2 "Resistor_THT:R_Array_SIP8" V 8100 3850 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 7625 3850 50  0001 C CNN
-	1    7625 3850
-	-1   0    0    1   
-$EndComp
 Entry Wire Line
 	8075 2275 7975 2375
 Entry Wire Line
@@ -1237,6 +1226,20 @@ Wire Wire Line
 Connection ~ 8125 6200
 Text GLabel 8600 6200 2    50   Output ~ 0
 Vbb
+$Comp
+L Device:R_Network08 RN2
+U 1 1 6448799E
+P 7525 3850
+AR Path="/6448799E" Ref="RN2"  Part="1" 
+AR Path="/63E55187/6448799E" Ref="RN?"  Part="1" 
+F 0 "RN2" H 7925 3850 50  0000 L CNN
+F 1 "R_6k8_Network08" H 7375 4025 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP9" V 8000 3850 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 7525 3850 50  0001 C CNN
+	1    7525 3850
+	-1   0    0    1   
+$EndComp
+NoConn ~ 7225 3650
 Wire Bus Line
 	5825 4525 5825 5525
 Wire Bus Line
