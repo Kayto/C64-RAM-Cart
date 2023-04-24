@@ -39,17 +39,17 @@ F 3 "~" V 4850 1150 50  0001 C CNN
 	1    4850 1150
 	1    0    0    -1  
 $EndComp
-Text GLabel 1075 1150 0    50   Input ~ 0
+Text GLabel 925  1150 0    50   Input ~ 0
 +5V
 $Comp
 L Device:C C1
 U 1 1 63E75A5D
-P 1325 1525
-F 0 "C1" H 1440 1571 50  0000 L CNN
-F 1 "C" H 1440 1480 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 1363 1375 50  0001 C CNN
-F 3 "~" H 1325 1525 50  0001 C CNN
-	1    1325 1525
+P 1175 1525
+F 0 "C1" H 1290 1571 50  0000 L CNN
+F 1 "100nF" H 1290 1480 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 1213 1375 50  0001 C CNN
+F 3 "~" H 1175 1525 50  0001 C CNN
+	1    1175 1525
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -57,13 +57,13 @@ L Device:C C2
 U 1 1 63E75A63
 P 1700 1525
 F 0 "C2" H 1815 1571 50  0000 L CNN
-F 1 "C" H 1815 1480 50  0000 L CNN
+F 1 "100nF" H 1815 1480 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 1738 1375 50  0001 C CNN
 F 3 "~" H 1700 1525 50  0001 C CNN
 	1    1700 1525
 	1    0    0    -1  
 $EndComp
-Text GLabel 1050 1950 0    50   Input ~ 0
+Text GLabel 900  1950 0    50   Input ~ 0
 GND
 $Comp
 L Device:Battery_Cell BT1
@@ -81,7 +81,7 @@ L Device:R_Small R1
 U 1 1 63E75A70
 P 4850 850
 F 0 "R1" V 5046 850 50  0000 C CNN
-F 1 "R_Small" V 4955 850 50  0000 C CNN
+F 1 "390" V 4955 850 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 4850 850 50  0001 C CNN
 F 3 "~" H 4850 850 50  0001 C CNN
 	1    4850 850 
@@ -126,25 +126,25 @@ Connection ~ 2300 1150
 Wire Wire Line
 	2300 1150 2650 1150
 Wire Wire Line
-	1325 1675 1325 1950
-Connection ~ 1325 1950
+	1175 1675 1175 1950
+Connection ~ 1175 1950
 Wire Wire Line
-	1325 1950 1050 1950
+	1175 1950 900  1950
 Wire Wire Line
 	1700 1675 1700 1950
 Connection ~ 1700 1950
 Wire Wire Line
-	1700 1950 1325 1950
+	1700 1950 1175 1950
 Wire Wire Line
 	1700 1375 1700 1150
 Connection ~ 1700 1150
 Wire Wire Line
-	1325 1375 1325 1150
+	1175 1375 1175 1150
 Wire Wire Line
-	1075 1150 1325 1150
-Connection ~ 1325 1150
+	925  1150 1175 1150
+Connection ~ 1175 1150
 Wire Wire Line
-	1325 1150 1700 1150
+	1175 1150 1700 1150
 Wire Wire Line
 	5175 1950 5175 1650
 Connection ~ 2300 1950
