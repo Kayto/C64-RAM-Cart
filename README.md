@@ -1,5 +1,10 @@
 # C64 RAM Cartridge
 
+## Latest News
+
+Please note this PCB remains untested so please review and understand the risk in proceeding.
+I do hoipe to pick up in 2024 so watch this space.
+
 ## Background
 
 C64 Cartridges were convenient and easy to use. Programs on cartridge loaded instantly. Typically cartridges used EPROMs (Erasable Programmable Read-Only Memories). The only downside of ROM was the inconvenience of making quick changes with the need for a seperate EPROM burner and an eraser. Contemporary articles note that EPROMS were relatively expensive at $25 each and the need for a burner and eraser equating to around $200.
