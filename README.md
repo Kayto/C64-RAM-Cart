@@ -3,7 +3,7 @@
 ## Latest News
 
 Please note this PCB remains untested so please review and understand the risk in proceeding.
-I do hoipe to pick up in 2024 so watch this space.
+I do hope to pick up in 2024 so watch this space.
 
 ## Background
 
